@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DrivePod</title>
+<meta name="description" content="DrivePod: an Android player for audiobooks and podcasts stored in Google Drive or on your phone.">
+<link rel="icon" href="icon.png">
+<style>
+  :root { --bg:#fbf8ff; --fg:#1b1a22; --muted:#5d5a6b; --accent:#5b3fd6; --card:#ffffff; --line:#e6e1f2; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#131218; --fg:#ece8f6; --muted:#a9a4ba; --accent:#b7a6ff; --card:#1d1b25; --line:#2e2b3a; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:48px 16px 64px; }
+  header { display:flex; align-items:center; gap:16px; margin-bottom:24px; }
+  header img { width:72px; height:72px; border-radius:18px; }
+  h1 { margin:0; font-size:2rem; }
+  .tag { margin:0; color:var(--muted); }
+  ul { padding-left:20px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:20px 24px; margin:24px 0; }
+  a { color:var(--accent); }
+  footer { margin-top:40px; color:var(--muted); font-size:.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon.png" alt="DrivePod logo">
+    <div>
+      <h1>DrivePod</h1>
+      <p class="tag">Audiobooks and podcasts from Google Drive, on Android.</p>
+    </div>
+  </header>
+
+  <div class="card">
+    <p>DrivePod plays the MP3 and audio files you keep in Google Drive (your own folders, folders shared with you, and shared drives) or on your phone.</p>
+    <ul>
+      <li>Streams from Drive file by file, or downloads for offline listening</li>
+      <li>Remembers where you stopped in every file</li>
+      <li>Playback speed from 0.5× to 3× in 0.1 steps, with quick presets</li>
+      <li>Read-only Drive access: DrivePod never edits, deletes or uploads anything</li>
+    </ul>
+  </div>
+
+  <p><a href="privacy.html">Privacy policy</a></p>
+
+  <footer>Contact: use the developer email shown on DrivePod's Google Play page.</footer>
+</main>
+</body>
+</html>
